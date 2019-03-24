@@ -32,7 +32,7 @@ $$
 <div id="mychart"></div>
 
 <script>
-let chart = new frappe.Chart( "#frost-chart", { // or DOM element
+let chart = new frappe.Chart( "#mychart", { // or DOM element
 	data: {
 	labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
 		"12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
